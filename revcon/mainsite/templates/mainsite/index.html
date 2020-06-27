@@ -1,0 +1,550 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title> REVCON MANAGMENT</title>
+  <link rel="stylesheet" href="{% static 'mainsite/style.css' %}">
+</head>
+<body>
+
+<section id="home" class="on">
+
+
+    <section class="banner">
+      <div class="call_to_action">
+        <div class="call_to_action_content">
+          <h2 class="heading"> Recognized leader in Renovations, Turns,
+            and Property Maintenance</h2>
+          <a href="#contact"><button> Contat Us</button></a>
+        </div>
+      </div>
+
+      <div class="nav_toggle_off">
+          <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#clients">Clients</a>
+            <a href="#contact">Contact</a>
+          </div>
+      </div>
+
+      <header id="header">
+        <a href="#" class="logo">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <div class="name">
+            REVCON
+          </div>
+          <div class="description">
+            Construction Management Company
+          </div>
+        </a>
+
+          <nav class="header_menu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <!-- <li><a href="#">Portfolio</a></li> -->
+              <li><a href="#service">Service</a></li>
+              <li><a href="#contact">Contacts</a></li>
+            </ul>
+          </nav>
+
+        <div class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+
+      </header>
+      <img src={% static 'mainsite/house4.jpg' %}>
+      <!-- <div class="content">
+        <h2>EXPERT MANAGEMENT QUALITY RESULTS</h2>
+        <p>
+          Concept to completion, let's create!
+        </p>
+      </div> -->
+    </section>
+
+  </section>
+
+  <section id="service" class="services">
+      <h2 class="heading">Our Services</h2>
+      <p class="text"><div class="container">
+        <div class="serviceBx">
+            <div class="front">
+              <img src={% static 'mainsite/Restoration & Renovation.png' %}>
+              <h2>Restoration & Renovation</h2>
+            </div>
+            <div class="back">
+              <!-- <a href="#service" class="blackarea"></a> -->
+              <p>Our vast experience encompasses any scope that may be a
+                part of your rehabilitation project including damages
+                from fires, floods, vandalism, and beyond. In less
+                extreme cases, where full rehabilitation is not ideal,
+                our clients often choose to address specific problem
+                areas of the home – ranging from the foundation to the
+                roof and anything in between.</p>
+                <a href="#popup1">More</a>
+            </div>
+
+        </div>
+        <div class="serviceBx">
+          <div class="front">
+            <img src={% static 'mainsite/Tenant Turns.png' %}>
+            <h2> Tenant Turns</h2>
+          </div>
+          <div class="back">
+            <p>The range of repairs U.S. Legacy offers in such turn
+              projects range from simple refresh cleanings to extensive
+               renovations. Repairs may also be performed long after the
+                tenant has settled into the property.</p>
+            <a href="#popup2">More</a>
+          </div>
+        </div>
+        <div class="serviceBx">
+          <div class="front">
+            <img src={% static 'mainsite/Property Maintenance.png' %}>
+            <h2>Property Maintenance</h2>
+          </div>
+          <div class="back">
+            <p>Resident Coordination
+            Leave all your worries about scheduling tenants and technicians
+            to our team of friendly dispatchers and project coordinators at
+             RevCon. Our back-office specialists arrange the perfect in-house
+              technician to arrive within the tenant’s most convenient time
+              frame providing timely updates.</p>
+                <a href="#popup3">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="popup1" class="popup">
+        <a href="#header"class="popup_area"></a>
+        <div class="popup_body">
+          <div class="popup_content">
+            <a href="#header"class="popup_close">X</a>
+            <div class="popup_title">
+              <h5>Restoration & Renovation</h5>
+            </div>
+            <div class="popup_text">
+                <p>Our vast experience encompasses any scope that may be a
+                  part of your rehabilitation project including damages from
+                   fires, floods, vandalism, and beyond. In less extreme cases,
+                    where full rehabilitation is not ideal, our clients often
+                    choose to address specific problem areas of the
+                     home – ranging from the foundation to the roof and anything
+                     in between.</p><br>
+                 <p>With our internal network of project managers,
+                 engineers, surveyors, architects, technicians,
+                  construction crews, and support teams, RevCon offers
+                   a single-source solution to all your renovation needs.</p><br>
+                <ul>
+                  <li>Transparent Pricing</li>
+                  <li>Descriptive Estimates</li>
+                  <li>Detailed Photos</li>
+                  <li>EagleView Reports</li>
+                  <li>Weekly Progress Reports with Photos</li>
+                  <li>Material Allowances</li>
+                  <li>Material Catalogs - Pictures, SKU #’s, Vendors, and Material Costs</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup2" class="popup">
+        <a href="#header"class="popup_area"></a>
+        <div class="popup_body">
+          <div class="popup_content">
+            <a href="#header"class="popup_close">X</a>
+            <div class="popup_title">
+              <h5>Tenant Turns</h5>
+            </div>
+            <div class="popup_text">
+                <p>The range of repairs U.S. Legacy offers in such turn
+                   projects range from simple refresh cleanings to extensive
+                   renovations. Repairs may also be performed long after the
+                    tenant has settled into the property.</p><br>
+                 <p>These services do not require you to be present as we
+                   are able to provide detailed photos and descriptions of
+                   the issues at hand, however, a walkthrough by our client’s
+                   representatives before/after the start of the project to
+                   ensure your confidence in successful projects is welcome
+                    as well.</p><br>
+                <ul>
+                  RevCon Tenant Turns services include but aren’t limited to:
+                  <li>Landscaping</li>
+                  <li>HOA Violations</li>
+                  <li>Exterior/Interior Painting</li>
+                  <li>Floor Repair/Replacement</li>
+                  <li>Trash Removal</li>
+                  <li>General Cleaning</li>
+                  <li>Carpet Cleaning</li>
+                  <li>Appliance Repair</li>
+                  <li>FHA Ready</li>
+                  <li>HVAC Services</li>
+                  <li>General Repairs</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup3" class="popup">
+        <a href="#header"class="popup_area"></a>
+        <div class="popup_body">
+          <div class="popup_content">
+            <a href="#header"class="popup_close">X</a>
+            <div class="popup_title">
+              <h5>Property Maintenance</h5>
+            </div>
+            <div class="popup_text">
+                <p>Resident Coordination
+                  Leave all your worries about scheduling tenants and
+                  technicians to our team of friendly dispatchers and
+                  project coordinators at RevCon. Our back-office specialists
+                   arrange the perfect in-house technician to arrive within the
+                    tenant’s most convenient time frame providing timely updates.
+                </p><br>
+                 <p>Additionally, we never disclose any information to
+                   the tenant other than scheduling and the general nature
+                   of repairs. Details such as prices and your future intentions
+                    are strictly confidential, moreover, if we hear any sort
+                     of legal action the tenant is pursuing, we will promptly
+                    diffuse the situation and inform you of the situation.
+                  </p><br>
+                  <p>Our technicians always prioritize a way to skillfully
+                    repair the issue at hand before proceeding quoting for
+                    replacement. This is because we are keen on providing
+                    our clients with the most reliable and cost-effective
+                    solution possible.
+                   </p><br>
+                <ul>
+                  The Primary Maintenance Services:
+                  <li>Plumbing</li>
+                  <li>HVAC</li>
+                  <li>Electrical</li>
+                  <li>Septic</li>
+                  <li>Flooring</li>
+                  <li>Roofing</li>
+                  <li>Windows</li>
+                  <li>Dry-outs</li>
+                  <li>Restoration</li>
+                  <li>Drywall</li>
+                  <li>Garage Door</li>
+                  <li>Concrete</li>
+                  <li>Framing</li>
+                  <li>Cleaning</li>
+                  <li>Trash-out</li>
+                  <li>Painting</li>
+                  <li>Fencing</li>
+                  <li>Landscaping</li>
+
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section id="about" class="about">
+    <div class="contentBx ">
+      <h2 class="heading">About Us</h2>
+      <p class="text">
+        RevCon is a construction management company. We manage construction
+        projects from a simple remodel to large scale multi-family units.
+        We provides full service rehabs,
+        turns and maintenance, manages process on time and
+        on budget.
+      </p>
+      <p class="text">
+        RevCon has executed more than 300 projects in the last three years (and
+        counting), totaling $50 million in assets.
+        <br>
+        In addition, we
+        are also investors of our own properties and perform our own acquisitions.
+        <br><br>
+        RevCon has:
+        <br>
+        - Excellent management team<br>
+        - General contractors and subcontractors all over the USA.
+      </p>
+    </div>
+    <div class="imgBx"></div>
+  </section>
+
+  <section id="clients" class="client">
+      <h2 class="heading">Our Clients</h2>
+      <p class="text">
+        RevCon works with real estate
+        investment and property management
+        companies focused on renovating and
+        leasing homes across the country.Our clients range from Real Estate
+        investors to hedge funds. The vast majority of
+        our customers operate on a large-scale covering most of the United
+        States. They typically have assets in excess of $5 billion.
+      </p>
+      <div class="imgBx">
+        <img class="brand" src={% static 'mainsite/brand5.png' %}>
+        <img class="brand" src={% static 'mainsite/brand6.png' %}>
+        <img class="brand" src={% static 'mainsite/brand7.png' %}>
+        <img class="brand" src={% static 'mainsite/brand8.png' %}>
+      </div>
+  </section>
+
+  <section id="my_map" >
+      <h2 class="heading">Our Coverage Areas</h2>
+      <div class="my_map">
+
+      <!-- <p class="text">RevCon works with real estate
+  investment and property management
+  companies focused on renovating and
+  leasing homes across the country</p> -->
+
+
+        <iframe src="https://createaclickablemap.com/map.php?&id=92916&maplocation=false&online=true" width="1300" height="758" style="border: none;"></iframe>
+        <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
+
+      </div>
+  </section>
+
+  <section id="team" class="team">
+      <h2 class="heading">Our Team</h2>
+      <div class="container">
+        <div class="teamBx">
+          <div class="front">
+            <img src={% static 'mainsite/tracy.jpg' %}>
+            <h2> Tracy M.Sharp</h2>
+            <p>Chief Operating Officer</p>
+          </div>
+          <div class="back">
+            <p>
+                Tracy Sharp serves as the Chief Operational Officer for the
+                portfolio of businesses that Mr. Phommas trail-blazes. Tracy's
+                love for startups lead her to the greater Los Angeles area where
+                she spearheaded efforts in business development for an
+                international AdTech company.
+                Her willingness to accept new challenges is what she's known
+                best for and is what led her to successfully raise millions of
+                dollars in her role as a fundraiser for United Way of Central
+                Ohio; planned major events for companies like Nationwide
+                Insurance, United Way of Central Ohio and several other
+                 charitable entities.<!-- Tracy acquired her undergraduate degree -->
+                <!-- from Franklin University, and is in pursuit of an MPA. In her
+                spare time she is an inspirational speaker, author, and a
+                loving mother to her daughter. -->
+            </p>
+              <!-- <a href="#">More</a> -->
+          </div>
+        </div>
+        <div class="teamBx">
+          <div class="front">
+            <img src={% static 'mainsite/Chris2.jpg' %}>
+            <h2>Christopher Phommas</h2>
+            <p>Chief Executive Officer</p>
+          </div>
+          <div class="back">
+            <p>
+              Christopher Phommas serves/served as a Board Member on several start-
+              ups/organizations. He is the President/Owner of a portfolio of
+              businesses that span from
+              Staffing &amp; Recruiting, Construction, Healthcare and Virtual
+               Services. Chris graduated
+              from Ohio University and worked at AT &amp;T for nearly 15 years.
+               Shortly after, he pursued
+              his newfound passion for creating &amp; developing new businesses
+               in the start-up space in Los
+              Angeles’ Silicon Beach. Chris is married to April and have two
+              children, Addison (6) and
+               Greyson (3).<!-- When he’s not working, he is either playing tennis
+               or spending time with the
+              kids. Chris is a frequent explorer and enjoys giving back to the
+               community. -->
+              </p>
+              <!-- <a href="#">More</a> -->
+          </div>
+        </div>
+        <div class="teamBx">
+          <div class="front">
+            <img src={% static 'mainsite/Alex2.jpg' %}>
+            <h2>Aliaksandr Mikhasenak</h2>
+            <p>
+              Project Manager
+            </p>
+          </div>
+          <div class="back">
+              <p>
+                Aliaksandr Mikhasenak is project manager in REV CON, Atlanta,
+                 Georgia. He has been working
+                in the construction business since 2010, right after he received
+                bachelor degree in commercial
+                and residential construction. He has great experience working on
+                projects not only in the USA,
+                but also in Europe. Alex has a financial degree which helps to
+                 implement his knowledge more
+                efficiently. He is a husband and father. He spends his free time
+                reading , playing with his
+                daughter, going in for sports, playing drums.
+              </p>
+                <!-- <a href="#">More</a> -->
+        </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- <section class="technology">
+    <div class="contentBx">
+      <h2 class="heading">Our experience:</h2>
+      <p class="text">RevCon has executed more than 250
+projects for only last two years. More
+than $ 2 000 000 in revenue during that
+span of time</p> -->
+    <!-- </div>
+    <div class="imgBx">
+      <img src="tech.png">
+    </div> -->
+  <!-- </section> -->
+
+
+
+
+
+  <!-- <section class="testimonials">
+    <h2 class="heading">What Our Client says</h2>
+    <div class="container">
+      <div class="contentBx">
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <br>
+          <h3>Someone Famous</h3>
+        </div>
+      </div>
+      <div class="contentBx">
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <br>
+          <h3>Someone Famous</h3>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section id="contact" class="contactus">
+    <h2 class="heading">Contact us</h2> -->
+    <!-- <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+       nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. </p> -->
+  <!-- </section> -->
+
+  <!-- <section class="about">
+    <div class="contentBx redbg">
+      <div class="form">
+        <div class="inputBx">
+          <input type="text" name="" placeholder="Full Name">
+        </div>
+        <div class="inputBx">
+          <input type="text" name="" placeholder="Email Address">
+        </div>
+        <div class="inputBx">
+          <input type="text" name="" placeholder="Mobile No.">
+        </div>
+        <div class="inputBx">
+          <textarea placeholder="Write your Message here"></textarea>
+        </div>
+        <div class="inputBx">
+          <input type="submit" name="" value="Send">
+        </div>
+      </div>
+    </div>
+    <div class="imgBx2"></div>
+  </section> -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contactinfo">
+        <div>
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span><img src={% static 'mainsite/location.png' %}></span>
+              <span>3593 Refugee Rd Suite D
+                Columbus, Ohio 43232<br>
+                90017</span>
+            </li>
+            <li>
+              <span><img src={% static 'mainsite/mail.png' %}></span>
+              <span>email@gmail.com</span>
+            </li>
+            <li>
+              <span><img src={% static 'mainsite/call.png' %}></span>
+              <span>Chris Phommas (CEO)<br>(614)-886-1977</span>
+              <span>Joe Schremser (technical director)<br>(614)-208-8966</span>
+              <span>Alex Mikhasenak (project manager)<br>(843)-999-1851</span>
+            </li>
+          </ul>
+        </div>
+        <ul class="sci">
+          <li><a href="#"><img src={% static 'mainsite/1.png' %}></a></li>
+          <li><a href="#"><img src={% static 'mainsite/2.png' %}></a></li>
+          <li><a href="#"><img src={% static 'mainsite/3.png' %}></a></li>
+          <li><a href="#"><img src={% static 'mainsite/4.png' %}></a></li>
+          <li><a href="#"><img src={% static 'mainsite/5.png' %}></a></li>
+        </ul>
+      </div>
+
+      <form action="{% url 'mainsite:forma_url' %}" method="post" class="contactForm">
+        {% csrf_token %}
+        <h2>Send a Message</h2>
+        <div class="formBox">
+
+          <div class="inputBox w50">
+            <input type="text" name="first_name" required>
+            <span>First Name</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="last_name" required>
+            <span>Last Name</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="email" required>
+            <span>Email Address</span>
+          </div>
+          <div class="inputBox w50">
+            <input type="text" name="mobile" required>
+            <span>Mobile Number</span>
+          </div>
+          <div class="inputBox w100">
+            <textarea name="message" required></textarea>
+            <span>Write your message here...</span>
+          </div>
+          <div class="inputBox w100">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="footer">
+    <p class="text">EXPERT MANAGEMENT, QUALITY RESULTS</p>
+    <ul>
+      <p class="text">Follow us on :</p>
+      <li><a href="#"><img src={% static 'mainsite/facebook.png' %}></a></li>
+      <li><a href="#"><img src={% static 'mainsite/twitter.png' %}></a></li>
+      <li><a href="#"><img src={% static 'mainsite/linkedin.png' %}></a></li>
+    </ul>
+  </section>
+  <script src="{% static 'mainsite/myscript.js' %}"></script>
+</body>
+</html>
