@@ -86,18 +86,25 @@ header
   z-index: 2;
 
 }
-header .logo{
+header .logo {
   margin-top: 20px;
   top:100px;
+  left:20px;
   height: 70px;
-  text-decoration: none;
+
   font-size: 50px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
   letter-spacing: 1px;
   color: black;
   transform: scale(0.7);
 
+
+}
+
+header .logo a {
+text-decoration: none;
+color: black;
 
 }
 .logo span{
@@ -109,13 +116,14 @@ background-color: black;
 }
 
 .logo span:nth-child(1){
+width: 50px;
 left: 0px;
 top:1px;
 background-color: black;
 height:8.9px
 }
 .logo span:nth-child(2){
-left: 85px;
+left: 35px;
 top:-29px;
 background-color: black;
 transform:rotateZ(-39deg);
@@ -124,13 +132,13 @@ height: 9px;
 .logo span:nth-child(3){
 height: 10px;
 width:70px;
-left: 170px;
+left: 120px;
 top:-30px;
 background-color: black;
 transform:skewY(40deg);
 }
 .logo span:nth-child(4){
-left: 95px;
+left: 45px;
 top:-35px;
 width:60px;
 background-color: #b65f26;
@@ -140,7 +148,7 @@ height: 8px;
 .logo span:nth-child(5){
 height: 8px;
 width:60px;
-left: 170px;
+left: 120px;
 top:-20px;
 background-color: #b65f26;
 transform:skewY(40deg);
@@ -148,12 +156,15 @@ transform:skewY(40deg);
 
 
 header .logo .name{
-  letter-spacing: 6px;
+  letter-spacing: 2px;
+  font-size: 45px;
 }
 header .logo .description{
-  transform:translatey(-10px);
-  font-size: 10px;
+  transform:translate(5px,-10px);
+
+  font-size: 20px;
   color: black;
+  letter-spacing: 4px;
 
 }
 
@@ -165,7 +176,7 @@ header .logo .description{
   width:20%;
   top: 130px;
   left: 5%;
-  background: rgba(182, 95, 38, 0.5);
+  background: rgba(182, 95, 38, 0.7);
   height: 90%;
   /* border:2px solid #b65f26; */
   z-index: 1;
@@ -181,7 +192,7 @@ header .logo .description{
 }
 
 .call_to_action_content a button {
-  margin-top: 50px;
+  margin-top: 20px;
   /* width:80%; */
   padding: 10px 40px;
   border:2px solid #f3f3f3;
@@ -1101,7 +1112,6 @@ section.contact .container .contactForm .formBox .inputBox textarea:valid ~ span
   letter-spacing: 1px;
   color: #b65f26;
 }
-
 section.contact .container .contactForm .formBox .inputBox input[type="submit"]
 {
   position: relative;
@@ -1261,6 +1271,7 @@ section.contact .container .contactForm .formBox .inputBox input[type="submit"]:
   }
   .banner
   {
+    border: 1px solid;
     padding: 50px;
     overflow: hidden;
   }
