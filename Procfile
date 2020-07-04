@@ -1,1 +1,1 @@
-web: gunicorn revcon.revcon.wsgi --log-file -
+web: gunicorn revcon.wsgi --log-file -
