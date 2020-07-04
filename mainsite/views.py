@@ -34,6 +34,6 @@ def forma(request,string = '#'):
         mob_number=request.POST['mobile'],
         message=request.POST['message']
         )
-        # send_mail('order','message','email',
-        # ['nicolay.krischenovich@gmail.com'], fail_silently=False,)
+        send_mail('order','message','email',
+        ['nicolay.krischenovich@gmail.com'], fail_silently=False,)
         return render(request, 'mainsite/index.html')
