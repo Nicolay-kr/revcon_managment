@@ -82,8 +82,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'revcondb',
         'HOST': 'revconserver.postgres.database.azure.com',
-        'USER': 'revcon',
-        'PASSWORD': 'Banderas021290'                                        
+        'USER': 'revcon@revconserver',
+        'PASSWORD': 'Banderas021290'
     }
 }
 
