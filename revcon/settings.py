@@ -79,8 +79,11 @@ WSGI_APPLICATION = 'revcon.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'revcondb',
+        'HOST': 'revconserver.postgres.database.azure.com',
+        'USER': 'revcon',
+        'PASSWORD': 'Banderas021290'                                        
     }
 }
 
@@ -135,9 +138,10 @@ DATABASES['default'].update(db_from_env)
 
 django_heroku.settings(locals())
 
-# EMAIL_HOST =
-# EMAIL_PORT =
-# EMAIL_HOST_USER =
-# # EMAIL_HOST_PASSWORD = ""
-# EMAIL_USE_TLS = True
-# EMAIL_USE_SSL = False
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'nicolay.krischenovich@gmail.com'
+EMAIL_HOST_PASSWORD = 'banderas021290                       '
+DEFAULT_FROM_EMAIL = 'nicolay_kr'
+DEFAULT_TO_EMAIL = 'nicolay.krischenovich@gmail.com'
