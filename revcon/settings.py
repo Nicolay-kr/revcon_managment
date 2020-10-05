@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'revcon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'revconmgt',
+        'NAME': 'revcondb',
         'USER': 'nicolayadmin@revconserver',
         'PASSWORD': 'Banderas021290',
         'HOST': 'revconserver.postgres.database.azure.com',
