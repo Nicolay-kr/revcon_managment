@@ -82,13 +82,6 @@ DATABASES = {
 <<<<<<< HEAD
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-=======
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'revcondb',
-        'HOST': 'revconserver.postgres.database.azure.com',
-        'USER': 'revcon@revconserver',
-        'PASSWORD': 'Banderas021290'
->>>>>>> a20888f15d94fcba9fd75995c740fdfb582cf611
     }
 }
 
