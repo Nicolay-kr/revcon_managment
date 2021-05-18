@@ -79,12 +79,14 @@ WSGI_APPLICATION = 'revcon.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'revcondb',
-        'USER': 'nicolayadmin@revconserver',
-        'PASSWORD': 'Banderas021290',
-        'HOST': 'revconserver.postgres.database.azure.com',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': 'revcondb',
+        # 'USER': 'nicolayadmin@revconserver',
+        # 'PASSWORD': 'Banderas021290',
+        # 'HOST': 'revconserver.postgres.database.azure.com',
+        # 'PORT': '',
     }
 }
 
